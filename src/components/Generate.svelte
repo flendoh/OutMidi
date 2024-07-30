@@ -10,7 +10,7 @@
     async function processMidi() {
         try {
             const response = await fetch(
-                "http://localhost:4321/api/generate-midi.json",
+                "https://out-midi.vercel.app/api/generate-midi.json",
                 {
                     method: "POST",
                     headers: {
