@@ -1,4 +1,4 @@
-# OutMidi
+# OutMid
 
 Esta una herramienta que te ayuda a dar el primer paso en tus composiciones musicales. Utilizando archivos MIDI e inteligencia artificial, te inspira a comenzar nuevas ideas y convierte esquemas en archivos MIDI descargables según tus instrucciones.
 
@@ -19,7 +19,7 @@ Para aquellos que desean contribuir al proyecto, aquí hay una guía rápida par
 1. **Clonar el repositorio**:
     ```sh
     git clone https://github.com/flendoh/OutMid.git
-    cd outmidi
+    cd outmid
     ```
 
 2. **Instalar dependencias**:
