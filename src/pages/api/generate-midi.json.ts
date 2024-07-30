@@ -48,7 +48,7 @@ export const POST: APIRoute = async ({request}) => {
       midiScheme: generatedMidi
     }
 
-    const filePath =  path.join(process.cwd(), 'src', 'assets', 'midi', `${MidiRequest.id}.json`);
+    const filePath = path.join('/tmp', `${MidiRequest.id}.json`);
     await writeFile(filePath, JSON.stringify(MidiRequest, null, 2), 'utf-8')
 
     return new Response(JSON.stringify(MidiRequest), {

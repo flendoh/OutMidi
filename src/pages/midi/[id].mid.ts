@@ -41,7 +41,7 @@ export const GET: APIRoute = async ({params}) => {
       }
 
       //Lectura de Datos
-      const filePath =  path.join(process.cwd(), 'src', 'assets', 'midi', `${params.id}.json`);
+      const filePath = path.join('/tmp', `${params.id}.json`);
       const fileContent = await readFile(filePath, 'utf-8');
 
       //Conversion de Datos
