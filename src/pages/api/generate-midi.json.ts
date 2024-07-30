@@ -58,6 +58,7 @@ export const POST: APIRoute = async ({request}) => {
       },
     });
   }catch(error){
+    console.error(error);
     return new Response(JSON.stringify('Critical Error'), {
       status: 404,
       headers: {
