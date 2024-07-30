@@ -22,7 +22,7 @@ export const MidiSchema = z.object({
                     duration: z.number().describe('duration in seconds between noteOn and noteOff'),
                     velocity: z.number().describe('The normalized velocity (volume) of the note, ranging from 0 to 1.'),
                 }),
-            ).describe('The array of the notes (must have at least 5 notes)'),
+            ).describe('The array of the notes (must have at least 20 notes)'),
             instrument: z.object({
                 number: z.number().describe('The standard instrument MIDI number, ranging from 0 to 127.'),
             }),
