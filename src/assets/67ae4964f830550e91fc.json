@@ -1,0 +1,186 @@
+{
+  "id": "67ae4964f830550e91fc",
+  "date": "2024-07-31T20:29:34.300Z",
+  "prompt": "una melodia suave estilo jazz",
+  "midiScheme": {
+    "header": {
+      "name": "Midnight Jazz",
+      "bpm": 120,
+      "key": "C major",
+      "timeSignatures": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    },
+    "tracks": [
+      {
+        "name": "Melodía",
+        "channel": 0,
+        "notes": [
+          {
+            "name": "C4",
+            "time": 0,
+            "duration": 0.75,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 0.75,
+            "duration": 0.25,
+            "velocity": 0.7
+          },
+          {
+            "name": "G4",
+            "time": 1,
+            "duration": 1,
+            "velocity": 0.6
+          },
+          {
+            "name": "E4",
+            "time": 2,
+            "duration": 1,
+            "velocity": 0.7
+          },
+          {
+            "name": "C4",
+            "time": 3,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "D4",
+            "time": 4,
+            "duration": 0.75,
+            "velocity": 0.8
+          },
+          {
+            "name": "F4",
+            "time": 4.75,
+            "duration": 0.25,
+            "velocity": 0.7
+          },
+          {
+            "name": "A4",
+            "time": 5,
+            "duration": 1,
+            "velocity": 0.6
+          },
+          {
+            "name": "F4",
+            "time": 6,
+            "duration": 1,
+            "velocity": 0.7
+          },
+          {
+            "name": "D4",
+            "time": 7,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 8,
+            "duration": 0.75,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 8.75,
+            "duration": 0.25,
+            "velocity": 0.7
+          },
+          {
+            "name": "C5",
+            "time": 9,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "B4",
+            "time": 11,
+            "duration": 1,
+            "velocity": 0.7
+          },
+          {
+            "name": "G4",
+            "time": 12,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "A4",
+            "time": 13,
+            "duration": 0.75,
+            "velocity": 0.8
+          },
+          {
+            "name": "C5",
+            "time": 13.75,
+            "duration": 0.25,
+            "velocity": 0.7
+          },
+          {
+            "name": "E5",
+            "time": 14,
+            "duration": 1,
+            "velocity": 0.6
+          },
+          {
+            "name": "C5",
+            "time": 15,
+            "duration": 1,
+            "velocity": 0.7
+          },
+          {
+            "name": "A4",
+            "time": 16,
+            "duration": 1,
+            "velocity": 0.8
+          }
+        ],
+        "instrument": {
+          "number": 1
+        }
+      },
+      {
+        "name": "Acompañamiento",
+        "channel": 1,
+        "notes": [
+          {
+            "name": "C3",
+            "time": 0,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "E3",
+            "time": 4,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "G3",
+            "time": 8,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "A3",
+            "time": 12,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "F3",
+            "time": 16,
+            "duration": 4,
+            "velocity": 0.5
+          }
+        ],
+        "instrument": {
+          "number": 2
+        }
+      }
+    ]
+  }
+}
