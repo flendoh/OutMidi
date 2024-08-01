@@ -18,9 +18,15 @@
 				{title}
 			{/if}
 		</h2>
-		<div class="grid grid-cols-2 gap-3">
-			<slot />
-		</div>
+		{#if loaded}
+			<div class="grid grid-cols-2 gap-3">
+				<slot />
+			</div>
+		{:else}
+			<div class="justify-center">
+				<slot />
+			</div>
+		{/if}
 	</div>
 	<!-- Download button -->
 	<a href={loaded ? `./midi/${id}.mid` : "#"} class="w-full"

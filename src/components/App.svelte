@@ -9,7 +9,7 @@
 {:else if $AppStatus === APP_STATUS.GENERATE}
     <Generate />
 {:else if $AppStatus === APP_STATUS.ERROR}
-    <p class="text-red-400">Error!</p>
+    <p class="text-red-400 mt-4">Error!</p>
 {:else}
     <p>Unknown status</p>
 {/if}
