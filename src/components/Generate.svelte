@@ -36,6 +36,11 @@
             const result = await processMidi();
             if (result) midis[i] = { status: MIDI_STATUS.GENERATED, data: result };
             else midis[i] = { status: MIDI_STATUS.ERROR };
+
+            (async () => {
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            })();
+
         }
     }
     processForm();

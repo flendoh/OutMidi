@@ -1,0 +1,261 @@
+{
+  "id": "089f2124702d66624147",
+  "date": "2024-08-05T03:36:08.296Z",
+  "prompt": "buenas",
+  "midiScheme": {
+    "header": {
+      "name": "Cosmic Dance",
+      "bpm": 120,
+      "key": "C major",
+      "timeSignatures": {
+        "numerator": 4,
+        "denominator": 4
+      }
+    },
+    "tracks": [
+      {
+        "name": "Melody",
+        "channel": 0,
+        "notes": [
+          {
+            "name": "C4",
+            "time": 0,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 0.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 1,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "C5",
+            "time": 1.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 2,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 3,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "C4",
+            "time": 4,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 4.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "C5",
+            "time": 5.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 6,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 7,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "C4",
+            "time": 8,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "D4",
+            "time": 8.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 9,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "F4",
+            "time": 9.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 10,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "F4",
+            "time": 11,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "E4",
+            "time": 12,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "F4",
+            "time": 12.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 13,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "A4",
+            "time": 13.5,
+            "duration": 0.5,
+            "velocity": 0.8
+          },
+          {
+            "name": "G4",
+            "time": 14,
+            "duration": 1,
+            "velocity": 0.8
+          },
+          {
+            "name": "F4",
+            "time": 15,
+            "duration": 1,
+            "velocity": 0.8
+          }
+        ],
+        "instrument": {
+          "number": 1
+        }
+      },
+      {
+        "name": "Harmony",
+        "channel": 1,
+        "notes": [
+          {
+            "name": "C3",
+            "time": 0,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "G3",
+            "time": 2,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "E3",
+            "time": 4,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "C3",
+            "time": 6,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "D3",
+            "time": 8,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "A3",
+            "time": 10,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "F3",
+            "time": 12,
+            "duration": 2,
+            "velocity": 0.6
+          },
+          {
+            "name": "D3",
+            "time": 14,
+            "duration": 2,
+            "velocity": 0.6
+          }
+        ],
+        "instrument": {
+          "number": 2
+        }
+      },
+      {
+        "name": "Bass",
+        "channel": 2,
+        "notes": [
+          {
+            "name": "C2",
+            "time": 0,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "G2",
+            "time": 4,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "A2",
+            "time": 8,
+            "duration": 4,
+            "velocity": 0.5
+          },
+          {
+            "name": "F2",
+            "time": 12,
+            "duration": 4,
+            "velocity": 0.5
+          }
+        ],
+        "instrument": {
+          "number": 3
+        }
+      }
+    ]
+  }
+}
