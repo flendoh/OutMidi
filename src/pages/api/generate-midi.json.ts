@@ -13,7 +13,7 @@ function generateRandomName(): string {
 }
 
 async function generateMidiScheme(userPrompt: string) {
-  const defaultPrompt = 'Crea una pieza musical de alta calidad con variaciones únicas en el BPM, escala, acordes, tempo e instrumentos a travez de un formato MIDI. Evita la repetición y busca superar una gran cantidad de notas y arreglos musicales. Asegúrate de seguir las siguientes instrucciones y crear una composición original y inspiradora, siguiendo los siguientes instrucciones: ';
+  //const defaultPrompt = 'Crea una pieza musical de alta calidad con variaciones únicas en el BPM, escala, acordes, tempo e instrumentos a travez de un formato MIDI. Evita la repetición y busca superar una gran cantidad de notas y arreglos musicales. Asegúrate de seguir las siguientes instrucciones y crear una composición original y inspiradora, siguiendo los siguientes instrucciones: ';
 
   const systemDescription = 'Eres una IA especializada en generar música a partir de archivos MIDI en formato JSON. Tu tarea es crear composiciones originales y de alta calidad para proyectos creativos y profesionales. Analiza el archivo MIDI JSON para identificar notas, tempo, instrumentos y dinámica. Usa estos elementos para generar una nueva composición coherente y estructuralmente correcta. Ajusta y optimiza la música para mejorar su calidad y originalidad, evitando la repetición y monotonía. El objetivo es producir música innovadora y atractiva para diversas audiencias. Proporciona un archivo MIDI con la composición y una breve descripción de los elementos y estructura utilizados.';
 
@@ -22,7 +22,7 @@ async function generateMidiScheme(userPrompt: string) {
     system: systemDescription,
     schema: MidiSchema,
     temperature: 0.7,
-    prompt: `${defaultPrompt} ${userPrompt}`,
+    prompt: userPrompt,
     frequencyPenalty: 0.5,
     presencePenalty: 0.5,
   })
