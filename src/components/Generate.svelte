@@ -44,6 +44,11 @@
         }
     }
     processForm();
+
+    function formatDate(dateString) {
+        const date = new Date(dateString);
+        return date.toLocaleDateString('es-ES');
+    }
 </script>
 
 <div class="text-blue-300 mb-1 my-10">
@@ -59,11 +64,12 @@
                 </span>
             {:else if midi.status === MIDI_STATUS.GENERATED}
                 <StepGenerated
-                    date={midi.data.date}
+                    date={formatDate(midi.data.date)}
                     bpm={midi.data.midiScheme.header.bpm}
                     key={midi.data.midiScheme.header.key}
                     notes={midi.data.midiScheme.tracks.reduce((acc, track) => acc + track.notes.length, 0)}
                     tracks={midi.data.midiScheme.tracks.length}
+                    timeSignatures={midi.data.midiScheme.header.timeSignatures.numerator+'/'+midi.data.midiScheme.header.timeSignatures.denominator}
                 />
             {:else if midi.status === MIDI_STATUS.ERROR}
                 <p class="text-red-400">Error al generar el MIDI</p>
